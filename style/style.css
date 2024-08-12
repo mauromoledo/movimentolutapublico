@@ -1,0 +1,230 @@
+header {
+  position: relative;
+}
+
+svg {
+  background: none;
+}
+
+main {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 7rem;
+  left: 8rem;
+  z-index: 2;
+}
+
+.container-foto-topo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-foto-topo img {
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container-foto-topo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.container-button-topo {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  padding: 6rem 15rem 6rem 0;
+}
+
+.button-redes {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+.button-rede {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+}
+
+.button-rede img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.button-nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 2;
+  gap: 1rem;
+}
+
+.button-nav button {
+  background-color: #a93a63;
+  color: #ffffff;
+  line-height: 35px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 52px;
+  padding: 16px 20px 16px 20px;
+}
+
+.button-vaquinha {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-vaquinha button {
+  display: flex;
+  align-items: center;
+  background-color: #e37a41;
+  color: #ffffff;
+  line-height: 35px;
+  border-radius: 5px;
+  height: 52px;
+  padding: 16px 20px 16px 20px;
+}
+
+.container-principios {
+  display: flex;
+  background-color: #d3c09f;
+  color: #333333;
+}
+
+.principios-texto {
+  flex: 1;
+  padding: 4.25rem 20px 13.85rem 10.75rem;
+}
+
+.principios-blocos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 9rem 10.75rem 13.85rem 20px;
+}
+
+.principios-bloco {
+  display: flex;
+  justify-content: center;
+}
+
+.principios-bloco-desenho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principios-desenho {
+  align-items: center;
+  width: 5rem;
+}
+
+.principios-desenho-legenda {
+  margin-top: 0.5rem;
+  height: 5.5rem;
+  width: 14.5rem;
+  text-align: center;
+}
+
+.container-faca-parte {
+  position: relative;
+  padding: 68px 349px 400px 170px;
+  background-color: #faf5ec;
+  color: #333333;
+}
+
+.raiz-marrom {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40rem;
+  background-color: #faf5ec;
+}
+
+.raiz-verde {
+  z-index: 1;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 40rem;
+  background-color: #faf5ec;
+}
+
+.container-ajudar {
+  padding: 68px 349px 400px 170px;
+  background-color: #485023;
+  color: #faf5ec;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.container-contribua {
+  background-color: #d3c09f;
+  color: #333333;
+}
+
+.container-contribua-bloco {
+  display: flex;
+  padding: 4rem 6rem 6rem 10rem;
+  justify-content: space-around;
+}
+
+.container-contribua-bloco h1 {
+  color: #a93a63;
+}
+
+.contribua-texto {
+  flex: 2;
+}
+
+.contribua-imagem {
+  flex: 1;
+}
+
+.contribua-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.contribua-button button {
+  background-color: #a93a63;
+  color: #ffffff;
+  line-height: 35px;
+  border-radius: 5px;
+  padding: 16px 20px 16px 20px;
+}
+
+.container-copyright {
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 30px 50px 30px;
+}
